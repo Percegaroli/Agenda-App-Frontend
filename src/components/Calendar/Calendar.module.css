@@ -1,0 +1,69 @@
+.Calendar {
+    background-color: #529DCC;
+    width: 470px;
+    min-height: 410px;
+    margin: 49px auto 0 auto;
+    box-shadow: 2px 4px 10px rgba(18, 16, 80, 50%);
+}
+
+.TitleContainer{
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.MonthTitle {
+    background-color: #242031;
+    color: white;
+    font-family: 'ZCOOL QingKe HuangYou', cursive, sans-serif;
+    font-size: 40px;
+    letter-spacing: 0.22em;
+    font-weight: bold;
+    text-align: center;
+    width: 351px;
+    height: 51px;
+    margin: auto 0;
+}
+
+.Weeks div {
+    display:block;
+}
+
+.Weeks div li{
+    display: inline-block;
+}
+
+.DayNames {
+    color: #E27171;
+    width: 46px;
+    margin-right: 26px;
+    font-weight: bold;
+}
+
+.DayContainer {
+    background-color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 10px 10px 0;
+    width: 46px;
+    height: 48px;
+}
+
+.Day {
+    display:flex;
+    align-self: center;
+}
+
+.WeekDayContainer {
+    margin-left: 40px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.Active {
+    color:red;
+    font-weight: bold;
+    font-size: 16px;
+}

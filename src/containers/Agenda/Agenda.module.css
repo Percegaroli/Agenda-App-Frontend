@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+.AgendaContainer {
+    width: 1164px;
+    height: 949px;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:white;
+    border-radius: 29px;
+    box-shadow: 6px 10px 40px #474747BF;
+    border-color: none
+}

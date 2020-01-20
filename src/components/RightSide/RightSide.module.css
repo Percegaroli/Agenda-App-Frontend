@@ -1,0 +1,37 @@
+.RightContainer {
+    width: 50%;
+    background-color: #508DB3;
+    border-radius: 29px;
+}
+
+.Title{
+    text-align: center;
+    color: #E27171;
+    font-size: 34px;
+    font-weight: bold;
+    margin-top: 42px;
+}
+
+.RightContainer ul li {
+    font-size: 32px;
+    color:white;
+    text-align: center;
+    margin-bottom: 31px;
+    list-style: none;
+    max-width: 570px;
+    hyphens: auto;
+    word-wrap: break-word;
+}
+
+
+.RightContainer ul {
+    margin-top: 49px;
+}
+
+.ItemIcon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('../../assets/Elipse2.jpg');
+    margin-right: 28px;
+}
